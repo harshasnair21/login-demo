@@ -1,0 +1,20 @@
+.footer-icon-round {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #222;
+  border-radius: 50%;
+  margin: 0 8px;
+  transition: background 0.2s, color 0.2s;
+  color: #222;
+  font-size: 22px;
+}
+.footer-icon-round:hover {
+  background: #222;
+  color: #fff;
+}
+.footer-text {
+  margin-top: 40px;
+}

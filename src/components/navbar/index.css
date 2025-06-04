@@ -1,0 +1,23 @@
+.navbar-tab.active {
+  position: relative;
+  color: #222 !important;
+  font-weight: 600;
+}
+
+.navbar-tab.active::after {
+  content: "";
+  display: block;
+  margin: 4px auto 0 auto;
+  height: 2px;
+  width: 100%;
+  background: #222;
+  border-radius: 1px;
+  transition: width 0.2s;
+}
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+.clickable {
+  cursor: pointer;
+}
