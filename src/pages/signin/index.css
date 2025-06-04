@@ -1,0 +1,74 @@
+input.form-control {
+  font-weight: bold;
+  border: 2px solid #222;
+  border-radius: 0;
+  padding: 14px 16px;
+}
+input.form-control:focus {
+  box-shadow: none !important;
+  border-color: #222 !important;
+}
+.form-checkbox {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000000;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.keep-signed {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-label {
+  font-weight: bold;
+  line-height: 2rem;
+  font-size: 16px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center !important;
+}
+
+.form-check-input {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  border: 3px solid #222;
+  border-radius: 0 !important;
+  background-color: #eee;
+  vertical-align: middle;
+}
+.form-check-input:focus {
+  box-shadow: none !important;
+  border-color: #222 !important;
+}
+
+.form-check-input:checked {
+  background-color: #222 !important;
+  border-color: #222 !important;
+}
+.social-divider {
+  flex: 1;
+  height: 2px;
+  background: #ccc;
+  border-radius: 1px;
+  min-width: 40px;
+  max-width: 100px;
+}
+.cr-account {
+  text-decoration: none !important;
+}
+button.btn {
+  border-radius: 0 !important;
+  padding: 14px 16px !important;
+}
+.mx-2 {
+  width: 46px;
+  height: 46px;
+}
+.img-fluid {
+  width: 420px;
+  height: auto;
+}
